@@ -1,2 +1,17 @@
 __pycache__
 flask_session
+
+./Todo-React-Native/MyProject/node_modules/**/*
+./Todo-React-Native/MyProject/.expo/*
+./Todo-React-Native/MyProject/npm-debug.*
+./Todo-React-Native/MyProject/*.jks
+./Todo-React-Native/MyProject/*.p8
+./Todo-React-Native/MyProject/*.p12
+./Todo-React-Native/MyProject/*.key
+./Todo-React-Native/MyProject/*.mobileprovision
+./Todo-React-Native/MyProject/*.orig.*
+./Todo-React-Native/MyProject/web-build/
+
+# macOS
+./Todo-React-Native/MyProject/.DS_Store
+
