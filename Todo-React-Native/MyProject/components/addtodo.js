@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, } from 'react-native';
-// import { MyDatePicker } from './datepicker.js';
+import { MyDatePicker } from './datepicker.js';
 
 export default function AddTodo({ submitHandler }) {
 
@@ -28,7 +28,7 @@ export default function AddTodo({ submitHandler }) {
                 onChangeText={changeHandler} 
             />
             <Button onPress={() => submitHandler(text)} title="add todo" color="green" />
-            {/* <MyDatePicker /> */}
+            <MyDatePicker />
         </View>
     )
 }
